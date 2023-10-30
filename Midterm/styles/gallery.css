@@ -1,0 +1,86 @@
+* {
+  background-color: #CBB77E;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #CBB77E;
+  width: 100%;
+}
+
+.navbar-item {
+  display: block;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em;
+  background-color: #CBB77E;
+  color: black;
+  font-size: large;
+}
+
+.d-block {
+  display: flex;
+  vertical-align: middle;
+  width: 90%;
+  height: 925px;
+  margin: 6em;
+  padding: 1em;
+}
+
+.carousel-title {
+  text-align: center;
+  margin-top: 1em;
+  vertical-align: super;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 55pt;
+}
+
+.gallery {
+  max-width: 100%;
+}
+
+.main {
+  margin-top: -.5em;
+}
+
+footer {
+  padding: 5em;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px rgb(175, 172, 172);
+}
+
+  a:link {
+    color: black;
+    text-decoration: none;
+  }
+  a:visited {
+    color: black;
+    text-decoration: none;
+  }
+  a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  a:active {
+    color: red;
+    text-decoration: none;
+  }
+#collage {
+  background-color: #CBB77E;
+}
+
+

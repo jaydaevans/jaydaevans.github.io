@@ -1,0 +1,113 @@
+* {
+  background-color: #CBB77E;
+}
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: #CBB77E;
+  width: 100%;
+}
+
+.navbar-item {
+  display: block;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em;
+  background-color: #CBB77E;
+  color: black;
+  font-size: large;
+}
+
+.main {
+  margin-top: -.5em;
+}
+
+.header-title {
+  font-family: 'Bebas Neue', sans-serif;
+  text-align: center;
+  line-height: 4em;
+}
+
+.header-text {
+  text-align: center;
+  font-size: large;
+  line-height: 3em;
+  font-family: 'Playfair Display', serif;
+  margin-top: 2em;
+  margin-bottom: .5em;
+}
+
+header {
+  padding: 2em;
+}
+
+.card-text2, .card-text1, .card-text3 {
+  line-height: 3em;
+  font-family: 'Playfair Display', serif;
+  font-size: 20px;
+}
+
+
+.list {
+  line-height: 1.5em;
+}
+
+.card-title {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+}
+
+dt {
+  font-family: 'Bebas Neue', sans-serif;
+  letter-spacing: 2px;
+}
+dd {
+  font-family: 'Playfair Display', serif;
+}
+dl {
+  font-size: 20px;
+}
+
+.shutters {
+width: 100%;
+}
+
+.card {
+  margin: 15em;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: white;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  text-decoration: none;
+}
+footer {
+  padding: 5em;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px rgb(175, 172, 172);
+}

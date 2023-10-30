@@ -1,0 +1,115 @@
+
+.navbar-menu {
+  display: flex;
+  justify-content: flex-end;
+  align-items: stretch;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  background-color: white;
+  width: 100%;
+}
+
+.navbar-item {
+  display: block;
+  flex: 0 0 auto;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+  padding: 1em;
+  background-color: white;
+  color: black;
+}
+
+.form-label:after{
+  content:" *";
+  color: red;
+}
+
+.slider-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+ }
+
+.slides1, .slides2, .slides3, .slides4, .slides5 {
+  vertical-align: middle;
+ }
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+ }
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.logo {
+  margin-right: 15em;
+  margin-top: 1em;
+}
+
+.jumbotron {
+  width: 100%;
+}
+
+.container {
+  background-color: #E6AA41;
+}
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: grey;
+  text-decoration: none;
+}
+a:active {
+  color: red;
+  text-decoration: none;
+}
+
+footer {
+  padding: 5em;
+  text-align: center;
+  font-size: 25px;
+  color: black;
+  text-shadow: 2px 2px rgb(175, 172, 172);
+  }
+
+h2, p {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+}
+
+h3 {
+  font-family: 'Bebas Neue', sans-serif
+}
+
+.container2 {
+  max-width: 100%;
+}
